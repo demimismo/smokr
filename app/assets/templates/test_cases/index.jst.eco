@@ -1,0 +1,9 @@
+<h1>Smokr</h1>
+
+<form id="new_test_case">
+  <input type="text" name="title" id="new_test_case_title">
+  <textarea name="description"></textarea>
+  <input type="submit" value="Add">
+</form>
+
+<ul id="test_cases"></ul>
