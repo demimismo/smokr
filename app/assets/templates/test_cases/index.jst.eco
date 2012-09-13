@@ -2,7 +2,7 @@
 
 <form id="new_test_case">
   <input type="text" name="title" id="new_test_case_title">
-  <textarea name="description"></textarea>
+  <textarea name="description" id="new_test_case_description"></textarea>
   <input type="submit" value="Add">
 </form>
 

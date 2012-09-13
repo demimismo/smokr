@@ -19,7 +19,7 @@ class Smokr.Views.TestCasesIndex extends Backbone.View
 
   createTestCase: (event) ->
     event.preventDefault()
-    attributes = name: $('#new_test_case_name').val()
+    attributes = title: $('#new_test_case_title').val(), description: $('#new_test_case_description').val()
     @collection.create attributes,
       wait: true
       success: -> $('#new_test_case')[0].reset()
