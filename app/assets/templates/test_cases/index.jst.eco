@@ -6,4 +6,4 @@
   <input type="submit" value="Add">
 </form>
 
-<ul id="test_cases"></ul>
+<div id="container"></div>
