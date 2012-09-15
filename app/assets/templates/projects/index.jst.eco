@@ -1,0 +1,11 @@
+<h1>Smokr</h1>
+
+<h2>Existing projects:</h2>
+
+<ul id="projects"></ul>
+
+<h2>Add new project:</h2>
+<form id="new_project">
+  <input type="text" name="name" id="new_project_name">
+  <input type="submit" value="Add">
+</form>

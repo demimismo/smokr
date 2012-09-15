@@ -15,7 +15,7 @@ class Smokr.Views.TestCasesIndex extends Backbone.View
     
   appendTestCase: (test_case) =>
     view = new Smokr.Views.TestCase(model: test_case)
-    @$('#entries').append(view.render().el)
+    @$('#test_cases').append(view.render().el)
 
   createTestCase: (event) ->
     event.preventDefault()

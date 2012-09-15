@@ -4,7 +4,7 @@ window.Smokr =
   Views: {}
   Routers: {}
   init: -> 
-    new Smokr.Routers.TestCases()
+    new Smokr.Routers.Projects()
     Backbone.history.start(pushState: true)
 
 $(document).ready ->
